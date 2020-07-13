@@ -1,0 +1,15 @@
+# =-=-=-=-=-=-=-=-=-=-=
+# PROPERTIES FILE DUMP 
+# =-=-=-=-=-=-=-=-=-=-=
+#
+# =-= Roborobo^3 
+# =-= Official version tag    : 20170301
+# =-= Current build name      : Tokyo build (roborobo^3 w/ SDL2)
+# =-= Compilation version tag : Jul  8 2020 - 12:03:32
+#
+# Loaded time stamp           : 20200708-13h40m23s219893us
+#
+# Original Properties file    : unknown
+#
+
+

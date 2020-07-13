@@ -1,0 +1,72 @@
+# =-=-=-=-=-=-=-=-=-=-=
+# PROPERTIES FILE DUMP 
+# =-=-=-=-=-=-=-=-=-=-=
+#
+# =-= Roborobo^3 
+# =-= Official version tag    : 20170301
+# =-= Current build name      : Tokyo build (roborobo^3 w/ SDL2)
+# =-= Compilation version tag : Jul  8 2020 - 12:03:32
+#
+# Loaded time stamp           : 20200708-13h46m31s896771us
+#
+# Original Properties file    : unknown
+#
+
+
+ConfigurationLoaderObjectName=TemplateWanderConfigurationLoader
+SlowMotionMode=false
+gBackgroundImageFilename=data/default_background.bmp
+gBatchMode=false
+gDisplayGroundCaption=false
+gDisplayMode=0
+gDisplaySensors=2
+gDisplayTail=false
+gEnvironmentImageFilename=data/default_environment.bmp
+gFastDisplayModeSpeed=60
+gFootprintImageFilename=data/default_footprints.bmp
+gFootprintImage_restoreOriginal=true
+gForegroundImageFilename=data/default_foreground.bmp
+gFramesPerSecond=60
+gInitialNumberOfRobots=100
+gInspectorAgent=false
+gInspectorAgentXStart=1
+gInspectorAgentYStart=1
+gInspectorCursorHorizontalSpeed=1
+gInspectorCursorMaxSpeedOnXaxis=5
+gInspectorCursorMaxSpeedOnYaxis=10
+gInspectorCursorVerticalSpeed=1
+gInspectorMode=false
+gLocationFinderMaxNbOfTrials=100
+gLocomotionMode=0
+gLogCommentText=(under-development)
+gLogDirectoryname=logs/
+gLogFilename=datalog_20200708-13h46m31s896771us_86015.txt
+gMaxIt=80000
+gMaxRadioDistance=16
+gMaxRotationalSpeed=30
+gMaxTranslationalDeltaValue=2
+gMaxTranslationalSpeed=2
+gMonitorPositions=false
+gMonitorRobot=false
+gNbOfLandmarks=3
+gNbOfPhysicalObjects=50
+gNiceRendering=true
+gPauseMode=false
+gPhysicalObjectIndexStartOffset=1
+gRadioMode=1
+gRadioNetwork=true
+gRandomSeed=-1462494554
+gRobotDisplayFocus=false
+gRobotIndexFocus=0
+gRobotIndexStartOffset=1048576
+gRobotLEDdisplay=false
+gRobotMaskImageFilename=data/minirobot-mask-edgesOnly.bmp
+gRobotSpecsImageFilename=data/minirobot-specs-8sensors.bmp
+gScreenHeight=800
+gScreenWidth=1350
+gSensorRange=16
+gSynchronization=true
+gTrajectoryMonitor=false
+gUserCommandMode=false
+gVerbose=true
+gVideoRecording=false

@@ -1,0 +1,312 @@
+nohup: les entrées sont ignorées
+/home/pecoffet/miniconda3/lib/python3.7/site-packages/gym/logger.py:30: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+2020-07-09 13:55:25,915	INFO resource_spec.py:212 -- Starting Ray with 12.65 GiB memory available for workers and up to 6.33 GiB for objects. You can adjust these settings with ray.init(memory=<bytes>, object_store_memory=<bytes>).
+2020-07-09 13:55:26,301	INFO services.py:1170 -- View the Ray dashboard at [1m[32mlocalhost:8265[39m[22m
+2020-07-09 13:55:26,414	INFO trainer.py:421 -- Tip: set 'eager': true or the --eager flag to enable TensorFlow eager execution
+2020-07-09 13:55:26,446	INFO trainer.py:580 -- Current log_level is WARN. For more information, set 'log_level': 'INFO' / 'DEBUG' or use the -v and -vv flags.
+2020-07-09 13:55:26,528	INFO trainable.py:217 -- Getting current IP.
+[MISSING] gNumberOfRobotGroups value is missing. Assume default value (1).
+[MISSING] gFastDisplayModeSpeed value is missing.
+[MISSING] gFramesPerSecond value is missing.
+[MISSING] gPhysicalObjectsInitAreaX value is missing. Assume value is 10.
+[MISSING] gPhysicalObjectsInitAreaY value is missing. Assume value is 10.
+[MISSING] gPhysicalObjectsInitAreaWidth value is missing. Assume value is gAreaWidth-10.
+[MISSING] gPhysicalObjectsInitAreaHeight value is missing. Assume value is gAreaHeight-10.
+[MISSING] gAgentsInitAreaX value is missing. Assume value is 0.
+[MISSING] gAgentsInitAreaY value is missing. Assume value is 0.
+[MISSING] gAgentsInitAreaWidth value is missing. Assume value is gAreaWidth-10.
+[MISSING] gAgentsInitAreaHeight value is missing. Assume value is gAreaHeight-10.
+[CORRUPT] gExtendedSensoryInputs should be boolean ("true" or "false"). Assume default value (false)
+[CORRUPT] gEnergyLevel should be boolean ("true" or "false"). Assume default value (false)
+[CORRUPT] gEnergyRefill should be boolean ("true" or "false"). Assume default value (false)
+[MISSING] gEnergyMax value is missing. Assume default value (100).
+[MISSING] gEnergyInit value is missing. Assume default value (100).
+[MISSING] gEnergyItemDefaultInit value is missing. Assume default value (100).
+[MISSING] gEnergyItemDefaultMode value is missing. Assume default value (0)
+[INFO] gScreenDisplayHeight not defined, using gScreenDisplayHeight value.
+[INFO] gScreenDisplayWidth not defined, using gScreenDisplayWidth value.
+[MISSING] gTailLength value is missing. Assume default value (16).
+[WARNING] gMaxRadioDistance is set, but is useless.
+[WARNING] gOutputImageFormat is missing or unknown (default is PNG).
+[WARNING] gCustomSnapshot_niceRendering is missing or corrupt (default value is "1").
+[WARNING] gCustomSnapshot_showLandmarks is missing or corrupt (default value is "1").
+[WARNING] gCustomSnapshot_showObjects is missing or corrupt (default value is "1").
+[WARNING] gCustomSnapshot_showRobots is missing or corrupt (default value is "1").
+[WARNING] gCustomSnapshot_showSensorRays is missing or corrupt (default value is "0").
+[WARNING] gMovableObjects is missing or corrupt (default is "0").
+[MISSING] PhysicalObjectFactory: object #2, type is missing. Assume type 1.
+[MISSING] Physical Object #2 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #2 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #2 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #2 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #3, type is missing. Assume type 1.
+[MISSING] Physical Object #3 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #3 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #3 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #3 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #4, type is missing. Assume type 1.
+[MISSING] Physical Object #4 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #4 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #4 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #4 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #5, type is missing. Assume type 1.
+[MISSING] Physical Object #5 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #5 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #5 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #5 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #6, type is missing. Assume type 1.
+[MISSING] Physical Object #6 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #6 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #6 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #6 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #7, type is missing. Assume type 1.
+[MISSING] Physical Object #7 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #7 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #7 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #7 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #8, type is missing. Assume type 1.
+[MISSING] Physical Object #8 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #8 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #8 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #8 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #9, type is missing. Assume type 1.
+[MISSING] Physical Object #9 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #9 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #9 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #9 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #10, type is missing. Assume type 1.
+[MISSING] Physical Object #10 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #10 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #10 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #10 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #11, type is missing. Assume type 1.
+[MISSING] Physical Object #11 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #11 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #11 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #11 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #12, type is missing. Assume type 1.
+[MISSING] Physical Object #12 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #12 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #12 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #12 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #13, type is missing. Assume type 1.
+[MISSING] Physical Object #13 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #13 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #13 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #13 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #14, type is missing. Assume type 1.
+[MISSING] Physical Object #14 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #14 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #14 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #14 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #15, type is missing. Assume type 1.
+[MISSING] Physical Object #15 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #15 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #15 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #15 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #16, type is missing. Assume type 1.
+[MISSING] Physical Object #16 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #16 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #16 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #16 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #17, type is missing. Assume type 1.
+[MISSING] Physical Object #17 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #17 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #17 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #17 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #18, type is missing. Assume type 1.
+[MISSING] Physical Object #18 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #18 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #18 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #18 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #19, type is missing. Assume type 1.
+[MISSING] Physical Object #19 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #19 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #19 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #19 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #20, type is missing. Assume type 1.
+[MISSING] Physical Object #20 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #20 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #20 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #20 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #21, type is missing. Assume type 1.
+[MISSING] Physical Object #21 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #21 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #21 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #21 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #22, type is missing. Assume type 1.
+[MISSING] Physical Object #22 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #22 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #22 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #22 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #23, type is missing. Assume type 1.
+[MISSING] Physical Object #23 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #23 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #23 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #23 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #24, type is missing. Assume type 1.
+[MISSING] Physical Object #24 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #24 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #24 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #24 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #25, type is missing. Assume type 1.
+[MISSING] Physical Object #25 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #25 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #25 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #25 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #26, type is missing. Assume type 1.
+[MISSING] Physical Object #26 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #26 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #26 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #26 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #27, type is missing. Assume type 1.
+[MISSING] Physical Object #27 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #27 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #27 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #27 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #28, type is missing. Assume type 1.
+[MISSING] Physical Object #28 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #28 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #28 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #28 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #29, type is missing. Assume type 1.
+[MISSING] Physical Object #29 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #29 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #29 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #29 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #30, type is missing. Assume type 1.
+[MISSING] Physical Object #30 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #30 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #30 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #30 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #31, type is missing. Assume type 1.
+[MISSING] Physical Object #31 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #31 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #31 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #31 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #32, type is missing. Assume type 1.
+[MISSING] Physical Object #32 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #32 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #32 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #32 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #33, type is missing. Assume type 1.
+[MISSING] Physical Object #33 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #33 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #33 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #33 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #34, type is missing. Assume type 1.
+[MISSING] Physical Object #34 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #34 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #34 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #34 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #35, type is missing. Assume type 1.
+[MISSING] Physical Object #35 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #35 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #35 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #35 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #36, type is missing. Assume type 1.
+[MISSING] Physical Object #36 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #36 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #36 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #36 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #37, type is missing. Assume type 1.
+[MISSING] Physical Object #37 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #37 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #37 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #37 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #38, type is missing. Assume type 1.
+[MISSING] Physical Object #38 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #38 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #38 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #38 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #39, type is missing. Assume type 1.
+[MISSING] Physical Object #39 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #39 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #39 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #39 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #40, type is missing. Assume type 1.
+[MISSING] Physical Object #40 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #40 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #40 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #40 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #41, type is missing. Assume type 1.
+[MISSING] Physical Object #41 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #41 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #41 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #41 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #42, type is missing. Assume type 1.
+[MISSING] Physical Object #42 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #42 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #42 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #42 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #43, type is missing. Assume type 1.
+[MISSING] Physical Object #43 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #43 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #43 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #43 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #44, type is missing. Assume type 1.
+[MISSING] Physical Object #44 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #44 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #44 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #44 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #45, type is missing. Assume type 1.
+[MISSING] Physical Object #45 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #45 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #45 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #45 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #46, type is missing. Assume type 1.
+[MISSING] Physical Object #46 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #46 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #46 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #46 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #47, type is missing. Assume type 1.
+[MISSING] Physical Object #47 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #47 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #47 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #47 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #48, type is missing. Assume type 1.
+[MISSING] Physical Object #48 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #48 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #48 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #48 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+[MISSING] PhysicalObjectFactory: object #49, type is missing. Assume type 1.
+[MISSING] Physical Object #49 (of super type CircleObject) missing radius (integer, >=0). Check default value.
+[MISSING] Physical Object #49 (of super type CircleObject) missing footprint radius (integer, >=0). Check default value.
+[MISSING] Physical Object #49 (EnergyItem) missing default energy initial level (integer, >=0). Assume default (100).
+[MISSING] Physical Object #49 (EnergyItem) missing default energy mode (integer, >=0). Assume default (0).
+*** Aborted at 1594318330 (unix time) try "date -d @1594318330" if you are using GNU date ***
+PC: @                0x0 (unknown)
+*** SIGSEGV (@0x7f0c867fda48) received by PID 255717 (TID 0x7f0eeb1b8740) from PID 18446744071671110216; stack trace: ***
+    @     0x7f0eeb5293c0 (unknown)
+    @     0x7f0e563262ae SquareObject::hide()
+    @     0x7f0e5633af57 GateObject::isWalked()
+    @     0x7f0e56340b95 SwitchObject::isWalked()
+    @     0x7f0e5632a155 World::updateWorld()
+    @     0x7f0e562e7fd2 Pyroborobo::update()
+    @     0x7f0e563055b1 _ZZN8pybind1112cpp_function10initializeIZNS0_C4Ib10PyroboroboJmEJNS_4nameENS_9is_methodENS_7siblingENS_3argEEEEMT0_FT_DpT1_EDpRKT2_EUlPS3_mE_bJSI_mEJS4_S5_S6_S7_EEEvOS9_PFS8_SB_ESH_ENUlRNS_6detail13function_callEE1_4_FUNESP_
+    @     0x7f0e562fe080 pybind11::cpp_function::dispatcher()
+    @     0x5559de811904 _PyMethodDef_RawFastCallKeywords
+    @     0x5559de848bc0 _PyObject_FastCallKeywords
+    @     0x5559de849661 call_function
+    @     0x5559de88f762 _PyEval_EvalFrameDefault
+    @     0x5559de7e2062 _PyEval_EvalCodeWithName
+    @     0x5559de801133 _PyFunction_FastCallKeywords
+    @     0x5559de849455 call_function
+    @     0x5559de88b4d1 _PyEval_EvalFrameDefault
+    @     0x5559de800d37 _PyFunction_FastCallKeywords
+    @     0x5559de849455 call_function
+    @     0x5559de88b4d1 _PyEval_EvalFrameDefault
+    @     0x5559de85a88a builtin_next
+    @     0x5559de811789 _PyMethodDef_RawFastCallKeywords
+    @     0x5559de88f428 _PyEval_EvalFrameDefault
+    @     0x5559de800d37 _PyFunction_FastCallKeywords
+    @     0x5559de849455 call_function
+    @     0x5559de88b4d1 _PyEval_EvalFrameDefault
+    @     0x5559de800d37 _PyFunction_FastCallKeywords
+    @     0x5559de849455 call_function
+    @     0x5559de88b4d1 _PyEval_EvalFrameDefault
+    @     0x5559de800d37 _PyFunction_FastCallKeywords
+    @     0x5559de849455 call_function
+    @     0x5559de88b4d1 _PyEval_EvalFrameDefault
+    @     0x5559de800d37 _PyFunction_FastCallKeywords

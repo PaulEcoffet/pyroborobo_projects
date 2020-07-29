@@ -1,4 +1,4 @@
 */logs/*
-^*/logs/.gitkeep
+!*/logs/.gitkeep
 */model/*
-^*/model/.gitkeep
+!*/model/.gitkeep

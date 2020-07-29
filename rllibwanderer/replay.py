@@ -15,7 +15,7 @@ if __name__ == "__main__":
 
     #%%
 
-    n_players = 10
+    n_players = 1
     max_moves = 1000
     agents_id = ['player{:d}'.format(i) for i in range(n_players)]
     actions = {agents_id[i]: 1 for i in range(n_players)}
@@ -34,31 +34,26 @@ if __name__ == "__main__":
 
 
     config = {
-        "num_gpus": 1,
+        "num_gpus": 0,
+        'num_workers': 0,
         "multiagent": {
             "policies": policies,
             "policy_mapping_fn": select_policy,
-            },
-        'model': {
-            'fcnet_hiddens': [3, 3]
         },
-        "simple_optimizer": False,
-        #"train_batch_size": 100,
-        #"sgd_minibatch_size": 100,
-        #"horizon": 100,
-        #'eager': True,
-        #'eager_tracing': True,
-        'num_workers': 0,
-        #'num_sgd_iter': 3,
-        #"rollout_fragment_length": max_moves,
-        'use_pytorch': True,
-        #'reuse_actors': True,
-        #'log_level': 'INFO'
-        #"framework": "tfe"
+        'model': {
+            'fcnet_hiddens': [4, 4]
+        },
+        "clip_actions": True,
+        "framework": "torch",
+        "num_sgd_iter": 4,
+        "lr": 1e-4,
+        "kl_target": 0.03,
+        "train_batch_size": 256,
+        "rollout_fragment_length": 128
     }
 
     trainer = PPOTrainer(env="wanderer_roborobo", config=config)
-    trainer.restore('model/checkpoint_200/checkpoint-200')
+    trainer.restore('model/checkpoint_2000/checkpoint-2000')
     stop_iter = 2000
 
     #%%
@@ -66,7 +61,3 @@ if __name__ == "__main__":
     for i in range(stop_iter):
         print("== Iteration", i, "==")
         result_ppo = trainer.train()
-        print(result_ppo['policy_reward_mean']['player0'])
-        if (i+1) % 200 == 0:
-            trainer.save('model')
-    trainer.save('model')

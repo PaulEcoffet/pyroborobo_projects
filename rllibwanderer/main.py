@@ -4,15 +4,18 @@ from ray.rllib.agents.pg import PGTrainer
 from ray.tune.logger import pretty_print
 from ray.tune.registry import register_env
 from wanderer_roborobo import WandererRoborobo
-
+from ray.rllib.models import ModelCatalog
+from negotiate_model import NegotiateModelReference
 
 if __name__ == "__main__":
 
     ray.init(num_cpus=8, num_gpus=0)
 
     #%%
+    ModelCatalog.register_custom_model(
+        "negotiate", NegotiateModelReference)
 
-    n_players = 100
+    n_players = 1
     max_moves = 1000
     agents_id = ['player{:d}'.format(i) for i in range(n_players)]
     actions = {agents_id[i]: 1 for i in range(n_players)}
@@ -37,9 +40,6 @@ if __name__ == "__main__":
             "policies": policies,
             "policy_mapping_fn": select_policy,
             },
-        'model': {
-            'fcnet_hiddens': [4, 4]
-        },
         "clip_actions": True,
         "framework": "torch",
         #"num_sgd_iter": 4,
@@ -50,7 +50,8 @@ if __name__ == "__main__":
         #"sgd_minibatch_size": 32
     }
 
-    trainer = PGTrainer(env="wanderer_roborobo", config=config)
+    trainer = PPOTrainer(env="wanderer_roborobo", config=config)
+    print(trainer.config.get('no_final_linear'))
     print('model built')
     stop_iter = 2000
 
@@ -64,3 +65,4 @@ if __name__ == "__main__":
             trainer.save('model')
     trainer.save('model')
     del trainer
+    ray.shutdown()

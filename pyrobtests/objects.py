@@ -6,13 +6,13 @@ class GateObject(SquareObject):
         SquareObject.__init__(self, id_)
         self.rob = Pyroborobo.get()
         self.triggered = False
-        self.regrowtimemax = data['regrowTimeMax']
-        self.regrowtime = 0
+        self.regrow_time_max = data['regrowTimeMax']
+        self.regrow_time = 0
 
     def step(self):
         if self.triggered:
-            self.regrowtime -= 1
-            if self.regrowtime <= 0:
+            self.regrow_time -= 1
+            if self.regrow_time <= 0:
                 self.show()
                 self.register()
                 self.triggered = False
@@ -23,7 +23,7 @@ class GateObject(SquareObject):
     def trigger(self, id_):
         if not self.triggered:
             self.triggered = True
-            self.regrowtime = self.regrowtimemax
+            self.regrow_time = self.regrow_time_max
             print(f"I'm triggered by {id_}")
             self.unregister()
             self.hide()
@@ -36,13 +36,13 @@ class SwitchObject(CircleObject):
         print(data)
         self.message = data.get("sendMessageTo", 0)
         self.triggered = False
-        self.regrowtime = 0
-        self.regrowtimemax = data['regrowTimeMax']
+        self.regrow_time = 0
+        self.regrow_time_max = data['regrowTimeMax']
 
     def step(self):
         if self.triggered:
-            self.regrowtime -= 1
-            if self.regrowtime <= 0:
+            self.regrow_time -= 1
+            if self.regrow_time <= 0:
                 self.relocate()
                 self.register()
                 self.show()
@@ -57,5 +57,5 @@ class SwitchObject(CircleObject):
             self.unregister()
             self.hide()
             self.triggered = True
-            self.regrowtime = self.regrowtimemax
+            self.regrow_time = self.regrow_time_max
 

@@ -21,7 +21,6 @@ class NegotiateModel(TorchModelV2, nn.Module):
         TorchModelV2.__init__(self, obs_space, action_space, num_outputs,
                               model_config, name)
         nn.Module.__init__(self)
-        print("*"*80, "\n", num_outputs)
         no_final_linear = model_config.get("no_final_linear")  # TODO Handle no_final_linear
         assert(not no_final_linear, "Not Implemented yet bro")
 
@@ -106,7 +105,7 @@ class NegotiateModel(TorchModelV2, nn.Module):
 
     @override(TorchModelV2)
     def forward(self, input_dict, state, seq_lens):
-        obs = input_dict["obs_flat"].float()
+        obs = input_dict["obs_flat"]
         self._last_flat_in = obs.reshape(obs.shape[0], -1)
         control_in, interact_in = torch.split(self._last_flat_in, [self.control_input_size, self.interaction_input_size], dim=1)
 
